@@ -1,5 +1,8 @@
 package com.mycompany.guiform2;
-
+/**
+ *
+ * @author ESTHER
+ */
 /**
  * Registration Form
  */
@@ -135,8 +138,7 @@ public class GUIFORM2 extends JFrame {
     }
 
     public static void main(String[] args) {
-        // Ensure that the MySQL JDBC driver is in the classpath
-        // You can download it from: https://dev.mysql.com/downloads/connector/j/
+        
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
